@@ -25,3 +25,109 @@ li a{
 .fa-bars{
     display: none;
 }
+.s-1{
+    height: 606px;
+    background-image: url(../images/img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-box h2{
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.text-box h3{
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.container-2{
+    width: 1242px;
+    margin: 0 auto;
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    width: 235px;
+}
+.card-1 h4{
+    font-family: Helvetica;
+    color: #636060;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card-1 h2{
+    font-family: Helvetica;
+    color: #010101;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 37px;
+}
+.card-1 p{
+    font-family: Helvetica;
+    color: #636060;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card{
+    width: 286px;
+    margin-bottom: 56px;
+}
+.card img{
+    width: 283px;
+}
+.card h5{
+    font-family: Helvetica;
+    color: #343232;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 23px;
+    margin-bottom: 9px;
+}
+.card p{
+    font-family: Helvetica;
+    color: #636060;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card-wrapper{
+    width: 924px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
