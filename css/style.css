@@ -1,5 +1,6 @@
 .container{
-    max-width: 1263px;
+    max-width: 1240px;
+    width: 100%;
     height: 84px;
     margin: 0 auto;
 }
@@ -7,6 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo :hover{
+    cursor: pointer;
 }
 nav ul{
     width: 590px;
@@ -30,6 +34,7 @@ li a{
     background-image: url(../images/img-1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +64,8 @@ li a{
     text-align: left;
 }
 .container-2{
-    width: 1242px;
+    max-width: 1242px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 84px;
     display: flex;
@@ -67,6 +73,7 @@ li a{
 }
 .card-1{
     width: 235px;
+    margin-bottom:25px
 }
 .card-1 h4{
     font-family: Helvetica;
@@ -102,7 +109,7 @@ li a{
     margin-bottom: 56px;
 }
 .card img{
-    width: 283px;
+    width: 100%;
 }
 .card h5{
     font-family: Helvetica;
@@ -125,7 +132,8 @@ li a{
     text-align: left;
 }
 .card-wrapper{
-    width: 924px;
+    max-width: 924px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
