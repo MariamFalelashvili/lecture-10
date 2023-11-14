@@ -1,0 +1,13 @@
+@media (max-width: 1263px) {
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width: 700px){
+    nav{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
